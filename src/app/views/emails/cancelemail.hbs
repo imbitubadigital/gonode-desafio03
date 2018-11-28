@@ -1,0 +1,20 @@
+<html lang="en">
+
+<head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif
+    }
+  </style>
+</head>
+
+<body>
+  <strong>Olá {{ purchase.buyer.name }}</strong>
+  <p>Sua compra foi cancelada: {{ ad.product.title }}</p>
+  <br>
+  <strong>Enviado por: {{ ad.author.name }} ({{ ad.author.email }})</strong>
+  <p>Mensagem: sua compra do produto {{ purchase.product.title }} foi cancelada!</p>
+
+</body>
+
+</html>

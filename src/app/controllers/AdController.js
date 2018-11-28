@@ -16,6 +16,8 @@ class AdController {
     if (req.query.title) {
       filters.title = new RegExp(req.query.title, 'i')
     }
+    filters.purchasedBy = null
+    // filters.author._id = req.userId
 
     const ads = await Ad.paginate(filters, {
       page: req.params.page || 1,
