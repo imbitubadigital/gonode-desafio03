@@ -1,6 +1,6 @@
 # Desafio 3
 
-### Cconclusão do desafio 03 do mòdulo 03 do curso GoNode da Rocketseat
+### Conclusão do desafio 03 do mòdulo 03 do curso GoNode da Rocketseat
 
 Como desafio foi proposto melhorar a aplicação desenvolvida durante o terceiro módulo com as seguintes funcionalidades:
 
